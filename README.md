@@ -25,4 +25,19 @@ create the audit logs for this so that the admin can see the logs.
 Frontend data
 -------------
 create a registration page and send the data to backend in json format
+------------------------------------------------------------------------------
+CREATE TABLE register (
+roll_no integer,
+name varchar(20),
+password  varchar(20),
+father_name varchar(20),
+date_of_birth date,
+class integer,
+section varchar(20)
+);
+
+ALTER TABLE register
+ALTER COLUMN father_name TYPE varchar(20)
+
+select * from registers;
    
