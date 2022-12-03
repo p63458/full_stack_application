@@ -40,4 +40,13 @@ ALTER TABLE register
 ALTER COLUMN father_name TYPE varchar(20)
 
 select * from registers;
+
+
+https://nodejs.org/en/download/
+https://www.postman.com/downloads/
+https://code.visualstudio.com/docs/?dv=win64user
+https://git-scm.com/download/win
+https://www.postgresql.org/ftp/pgadmin/pgadmin4/v6.10/windows/
+
+
    
